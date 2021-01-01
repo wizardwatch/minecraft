@@ -46,11 +46,11 @@ readinessProbe:
   timeoutSeconds: 1
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
-  eula: "FALSE"
+  eula: "TRUE"
   # One of: LATEST, SNAPSHOT, or a specific version (ie: "1.7.9").
-  version: "1.14.4"
+  version: "1.12.2"
   # This can be one of "VANILLA", "FORGE", "SPIGOT", "BUKKIT", "PAPER", "FTB", "SPONGEVANILLA"
-  type: "VANILLA"
+  type: "FTB"
   # If type is set to FORGE, this sets the version; this is ignored if forgeInstallerUrl is set
   forgeVersion:
   # If type is set to SPONGEVANILLA, this sets the version
@@ -64,7 +64,7 @@ minecraftServer:
   # If type is set to PAPER, this sets the URL to download the PaperSpigot package
   paperDownloadUrl:
   # If type is set to FTB, this sets the server mod to run
-  ftbServerMod:
+  ftbServerMod: Stoneblock2
   # Set to true if running Feed The Beast and get an error like "unable to launch forgemodloader"
   ftbLegacyJavaFixer: false
   # One of: peaceful, easy, normal, and hard
