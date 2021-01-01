@@ -1,6 +1,6 @@
 # Minecraft
 
-[Minecraft](https://minecraft.net/en/) is a game about placing blocks and going on adventures. This fork is meant to install stoneblock 2.
+[Minecraft](https://minecraft.net/en/) is a game about placing blocks and going on adventures. This fork is meant to install stoneblock 2 and is not meant for use except for my self as the eula is agreed too. ;)
 
 ## Introduction
 
